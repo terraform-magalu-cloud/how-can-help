@@ -20,5 +20,5 @@ The projects use pre-commit, tflint, terraform-docs and terraform (off course). 
 - Avoid object variable, use any instead object
 - Ensure that code example work fine
 - Write test and validation 
-- - Preste atenção com count e for, certifique-se de que seu código não cause problemas a terceiros
+- Pay attention with count and for, make sure your code does not cause problems to third parties
 - Your code need work fine: create, update, delete and avoid input break change.
