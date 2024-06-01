@@ -2,7 +2,7 @@
 
 
 ## Installing dependences:
-The projects use pre-commit, tflint, terraform-docs and terraform (off course). You need install this tools, how:
+The projects use pre-commit, tflint, terraform-docs and terraform (off course). You need install this tools, how:<br>
 [How install tflint](https://github.com/terraform-linters/tflint)<br>
 [How install terraform-docs](https://terraform-docs.io/user-guide/installation/)<br>
 [How install terraform](https://developer.hashicorp.com/terraform/install)<br>
@@ -15,10 +15,10 @@ The projects use pre-commit, tflint, terraform-docs and terraform (off course). 
 
 
 ### Common practices:
-- Each module have variable create
+- Each module need variable create
 - Always that possible, insert validation variables
 - Avoid object variable, use any instead object
 - Ensure that code example work fine
 - Write test and validation 
-- Caution cwith ount and for, ensure that your code don't cause problema at others
-- Your code need work fine: create, update, delete.
+- - Preste atenção com count e for, certifique-se de que seu código não cause problemas a terceiros
+- Your code need work fine: create, update, delete and avoid input break change.
